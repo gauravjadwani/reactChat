@@ -43,7 +43,7 @@ class AppBarExampleIcon extends React.Component {
     return (<MuiThemeProvider>
       <div>
         <AppBar title="ChatApp" left='100' iconClassNameRight="muidocs-icon-navigation-expand-more" style={{
-            'text-align' : 'center'
+            'textAlign' : 'center'
           }} iconElementRight={<Logged />} onLeftIconButtonClick={this.handleToggle}/>
       </div>
     </MuiThemeProvider>)

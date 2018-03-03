@@ -1,0 +1,45 @@
+.sidebarr{
+  /* height:200%; */
+}
+.vl{
+  border-right: 0.5px solid black;
+  height: 700px;
+}
+.right{
+  /* float:right */
+}
+.avatar > img{
+margin-top: 4px !important;
+}
+.text{
+/* width: 100%; */
+background-color: #0000ff;
+margin-right: 10px !important;
+/* margin-top: 10px !important; */
+padding: 10px !important;
+max-width:25%;
+min-width:50px;
+}
+.rightText{
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  float: right;
+}
+.leftText{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  /* float: left; */
+}
+/* .rightImage < img{
+  float: right !important;
+} */
+.rightImage{
+  float: right !important;
+}
+.comment::after {
+    content: "";
+    clear: both;
+    display: table;
+}

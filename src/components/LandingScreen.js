@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Sidebar from './common/Sidebar';
 import { Grid, Segment,Menu } from 'semantic-ui-react';
 import FriendList from './FriendList';
-import './../css/index.css';
+import Chat from './Chat2';
+import './../css/index2.css';
 
 class LandingScreen extends Component {
   render() {
@@ -14,8 +15,8 @@ class LandingScreen extends Component {
  <Segment><FriendList/></Segment>
     </Grid.Column>
     <Grid.Column>
-      <Segment>1</Segment>
-      <Segment>2</Segment>
+      <Segment><Chat/></Segment>
+
     </Grid.Column>
     <Grid.Column>
       <Segment>1</Segment>
